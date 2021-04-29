@@ -2,6 +2,10 @@
 
 Link: https://pilag6.github.io/Perfect-Four-Game/
 
+(Refresh Page to Start the Game)
+
+----------------------------------------------------------------------------------
+
 This is my first game with JavaScript. It is a numbers game that I played as a child with my childhood friends.
 
 It is played by two people.
