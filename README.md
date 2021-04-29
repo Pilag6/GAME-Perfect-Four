@@ -6,7 +6,16 @@ Link: https://pilag6.github.io/Perfect-Four-Game/
 
 ----------------------------------------------------------------------------------
 
-This is my first game with JavaScript. It is a numbers game that I played as a child with my childhood friends.
+This is my first game with JavaScript. I started learning JS last week. 
+There are things that I still don't know how to do. 
+I would like the program to choose a number at random and that in all the rounds that the person tries to guess the number, this number is always the same until the person guesses it.
+I would also like that all the rounds in which the person guesses the number, these remain on the screen with their respective captions.
+I would also like the person to be able to choose the 4-digit number only once and not have to choose number by number.
+
+-----------------------------------------------------------------------------------
+
+
+It is a numbers game that I played as a child with my childhood friends.
 
 It is played by two people.
 
