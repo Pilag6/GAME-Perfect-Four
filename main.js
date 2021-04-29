@@ -91,7 +91,7 @@ function gamePila(num1, num2, num3, num4) {
       (primer != num1 && second != num2 && third == num3 && fourth != num4) ||
       (primer != num1 && second != num2 && third != num3 && fourth == num4)) &&
 
-    ((primer == num2 || primer == num3 || primer == num4) &&
+    (((primer == num2 || primer == num3 || primer == num4) &&
       (second == num1 || second == num3 || second == num4) &&
       (third == num1 || third == num2 || third == num4) &&
       (fourth != num1 || fourth != num2 || fourth != num3)) ||
@@ -109,7 +109,7 @@ function gamePila(num1, num2, num3, num4) {
     ((primer != num2 || primer != num3 || primer != num4) &&
       (second == num1 || second == num3 || second == num4) &&
       (third == num1 || third == num2 || third == num4) &&
-      (fourth == num1 || fourth == num2 || fourth == num3))
+      (fourth == num1 || fourth == num2 || fourth == num3)))
   ) {
     return "One well located + Three well";
 
