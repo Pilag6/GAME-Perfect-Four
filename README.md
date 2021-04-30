@@ -1,6 +1,6 @@
 # Perfect-Four-Game
 
-Link: https://pilag6.github.io/Perfect-Four-Game/
+Link: https://pilag6.github.io/GAME-Perfect-Four/
 
 (Refresh Page to Start the Game)
 
