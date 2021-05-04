@@ -1,3 +1,8 @@
+
+
+
+let leyenda = ["😎 You guessed it!!! 😎", "Two well located + Two well"]
+
 function gamePila(num1, num2, num3, num4) {
   primer = 1;
   second = 2;
@@ -5,24 +10,26 @@ function gamePila(num1, num2, num3, num4) {
   fourth = 4;
 
   // I NEED: 
-  // 1) Random Numbers 2) num1, num2, num3 num4 In one prompt 3)  
+  // 1) Random Numbers 2)  
 
-  num1 = prompt("Write the First Number between 0 and 9");
-  num2 = prompt("Write the Second Number between 0 and 9");
-  num3 = prompt("Write the Third Number between 0 and 9");
-  num4 = prompt("Write the Fourth Number between 0 and 9");
+
+  [num1,num2,num3,num4] = prompt("Write a 4-Digit Number without repeating any number.");
+  
+  // num1 = prompt("Write the First Number between 0 and 9");
+  // num2 = prompt("Write the Second Number between 0 and 9");
+  // num3 = prompt("Write the Third Number between 0 and 9");
+  // num4 = prompt("Write the Fourth Number between 0 and 9");
 
   document.write("<h2 class='second'>" + "You have chosen this number:" + "</h2>")
 
   document.write("<h2 class='number'>" + num1,num2,num3,num4 + "</h2>");
-  
-  
-  
 
+  
+  
   if (primer == num1 && second == num2 && third == num3 && fourth == num4) {
-    return "You guessed it!!!";
+    return leyenda[0];
 
-
+   
     // Two well located  + Two well//
   } else if (
     ((primer == num1 && second == num2 && third != num3 && fourth != num4) ||
@@ -66,6 +73,8 @@ function gamePila(num1, num2, num3, num4) {
 
   ) {
     return "Two well located + Two well";
+
+
 
     // Two well located  + One well//
   } else if (
@@ -288,9 +297,16 @@ function gamePila(num1, num2, num3, num4) {
     return "One well";
 
   } else
-    return "Nothing";
+    return "Nothing 😞";
 }
 
 
 
 document.write("<h2 class='your-number'>" + gamePila() + "</h2>");
+
+
+//Press Enter and Refresh the Page//
+document.addEventListener('keyup', function(e){
+  if(e.keyCode == 13)
+    window.location.reload();
+})
